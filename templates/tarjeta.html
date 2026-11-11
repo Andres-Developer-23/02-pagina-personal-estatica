@@ -8,10 +8,14 @@
 <body>
 	<main class="content">
     	<section>
-        	<img src="" alt="imagen-perfil">
-        	<p>nombre</p>
-        	<p>bio</p>
-        	<p>profesion</p>
+        	<img src="{{ datos.imagen }}" alt="imagen-perfil">
+        	<p>{{ datos.nombre }}</p>
+        	<ul>
+                <li><a href="{{ datos.bios.github }}">Ver GitHub</a></li>
+                <li><a href="{{ datos.bios.linkedin }}">Ver Linkedin</a></li>
+                <li><a href="{{ datos.bios.correo }}">Enviar correo</a></li>
+            </ul>
+        	<p>{{ datos.profesion }}</p>
     	</section>
 	</main>
 </body>
