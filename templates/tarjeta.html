@@ -4,19 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tarjeta de presentacion</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-	<main class="content">
-    	<section>
-        	<img src="{{ datos.imagen }}" alt="imagen-perfil">
-        	<p>{{ datos.nombre }}</p>
-        	<ul>
-                <li><a href="{{ datos.bios.github }}">Ver GitHub</a></li>
-                <li><a href="{{ datos.bios.linkedin }}">Ver Linkedin</a></li>
-                <li><a href="{{ datos.bios.correo }}">Enviar correo</a></li>
-            </ul>
-        	<p>{{ datos.profesion }}</p>
-    	</section>
+	<main class="card separacion">
+        <img src="{{ datos.imagen }}" alt="imagen-perfil">
+        <h1 class="separacion nombre">{{ datos.nombre }}</h1>
+        <p class="separacion">{{ datos.profesion }}</p>
+        <ul class="separacion">
+            <li><a href="{{ datos.bios.github }}">Ver GitHub</a></li>
+            <li><a href="{{ datos.bios.linkedin }}">Ver Linkedin</a></li>
+            <li><a href="{{ datos.bios.correo }}">Enviar correo</a></li>
+        </ul>
 	</main>
 </body>
 </html>
