@@ -9,8 +9,8 @@ Una aplicación web muy básica construida con Flask que muestra una tarjeta de 
 1. **Vista principal:**
 ![Vista principal](assets/img/app2.png)
 
-2. **Terminal local:**
-![Terminal de ejecución](assets/img/terminal-render-app2.png)
+2. **Code local:**
+![Terminal de ejecución](assets/img/local-app2.png)
 
 3. **Despliegue en Render:**
 ![Panel de Render](assets/img/terminal-render-app2.png)
