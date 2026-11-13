@@ -26,5 +26,5 @@ Si deseas correr este proyecto en tu máquina, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/Andres-Developer-23/01-hola-mundo.git](https://github.com/Andres-Developer-23/01-hola-mundo.git)
-   cd 01-hola-mundo
+   git clone https://github.com/Andres-Developer-23/02-pagina-personal-estatica.git
+   cd 02-pagina-personal-estatica
