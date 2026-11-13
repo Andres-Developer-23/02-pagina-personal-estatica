@@ -2,8 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    background-color: black;
-    color: white;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f172a;
+}
+.separacion {
+    padding: 5px;
+}
+.card {
+    width: 450px;
+    height: 640px;
+    background-color: 1e293b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    border: 1px solid #38bdf8;
+    box-shadow: 1px 1px 6px #fff;
+    user-select: none;
+}
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1px solid #38bdf8;
+    margin: 5px;
+}
+p {
+    color: #fff
+}
+.nombre {
+    font-size: 1.3rem;
+    color: #fff;
+}
+ul {
+    list-style: none;
+}
+li {
+    width: 200px;
+    height: 34%;
+    background-color: #00d;
+    margin: 6px;
+    align-content: center;
+    text-align: center;
+    border-radius: 1.3rem;
+    border: 2px solid #38bdf8;
+}
+a {
+    text-decoration: none;
+    color: #fff;
 }
